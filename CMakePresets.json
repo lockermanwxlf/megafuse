@@ -1,0 +1,15 @@
+{
+    "version": 5,
+    "configurePresets": [
+        {
+            "name": "Debug",
+            "displayName": "Debug",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "cacheVariables": {
+                "CMAKE_BUILD_TYPE": "Debug",
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}",
+                "WITH_FUSE": "ON"
+            }
+        }
+    ]
+}
