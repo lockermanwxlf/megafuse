@@ -13,7 +13,7 @@ git clone https://github.com/lockermanwxlf/megafuse.git
 cd megafuse
 git submodule update --init
 cmake --preset Debug -DVCPKG_ROOT=<path-to-vcpkg>
-cmake --build out/build/Default
+cmake --build out/build/Debug
 ```
 
 # Usage
